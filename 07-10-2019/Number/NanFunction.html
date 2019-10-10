@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>You can use the global JavaScript function isNaN() to find out if a value is a number:</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+
+<script>
+var x = 100 / "Apple";
+document.getElementById("demo").innerHTML = isNaN(x);
+
+var x = NaN;
+document.getElementById("demo1").innerHTML = typeof x;
+</script>
+
+</body>
+</html>

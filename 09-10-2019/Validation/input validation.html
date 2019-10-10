@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   
+   <center>
+        <style>
+                body {
+                  background-color: linen;
+                }
+                </style>
+    <h1 style="background-color:darkviolet">
+       <u>Validation using Javascript</u> 
+    </h1>
+    <br><br><br>
+  Enter the Number:  <input id="number" type ="number" style="background-color:aqua"  required>
+  <p id ="demo"></p>
+    <button type ="button" onclick="MyFunction()">submit</button>
+
+    <script>
+    function MyFunction()
+    {
+        var x,text;
+        x=document.getElementById("number").value;
+
+        if(isNaN(x) || x<10 || x>100)
+        {
+            text = "Number is not valid number";
+        }
+        else
+        {
+            text = "OK...Number is valid "
+        }
+
+        document.getElementById("demo").innerHTML = text;
+    }
+    
+    
+    
+    </script>
+   </center> 
+    
+</html>
