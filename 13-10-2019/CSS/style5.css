@@ -1,0 +1,96 @@
+
+
+ .header
+ {
+background-color: rgb(111, 224, 145);
+text-align: center;
+padding: 20px;
+}
+
+h1
+{
+height:80px; 
+font-size:80px;color: rgb(212, 174, 221); 
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+}
+.topnav 
+{
+overflow: hidden;
+background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a 
+{
+float:left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: rgb(125, 241, 30);
+color: black;
+}
+.column {
+float: left;
+  height: 380px;
+  padding: 10px;
+}
+/* Create three unequal columns that floats next to each other */
+.column
+{
+float: left;
+padding: 5px;
+}
+
+/* Left column */
+.column.left {
+width: 25%;
+}
+
+/* Middle column */
+.column.middle
+{
+width: 45%;
+}
+/*right column*/
+.column.right 
+{
+width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.footer {
+background-color: rgb(111, 224, 145);
+  padding: 10px;
+  text-align: center;
+}
+#overflowTest {
+  background: rgb(196, 225, 252);
+  color:black;
+  padding: 15px;
+  width: 85%;
+  height: 280px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+}
