@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1, p").addClass("blue");
+    $("div").addClass("important");
+  });
+
+  $("#btn1").click(function(){
+    $("h3, h4, p").removeClass("blue");
+  });
+
+  $("#btn2").click(function(){
+    $("div").toggleClass("blue");
+  });
+});
+</script>
+
+<style>
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blue {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Blue colour appear</h1>
+
+<p>This is line will be change into blue</p>
+<p>This is line will be change into blue</p>
+
+<div>This is text is going to be large!</div><br>
+
+<button>Add classes to elements</button>
+
+<h3 class="blue">Heading 1</h3>
+<h4 class="blue">Heading 2</h4>
+
+<p class="blue">This is a paragraph.</p>
+<p class ="blue">This is another paragraph.</p>
+
+<button id ="btn1">Remove class from elements</button><br>
+
+
+
+</body>
+</html>

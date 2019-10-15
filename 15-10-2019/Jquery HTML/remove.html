@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").remove();
+  });
+  $("#btn1").click(function(){
+    $("#div2").empty();
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1" style="height:250px;width:300px;border:1px solid black;background-color:rgb(89, 241, 178);">
+
+This is some content in the div tag
+<p> remove elements and content, there are mainly two jQuery methods:</p>
+
+ <p>  remove() - Removes the selected element (and its child elements)</p>
+   <p>empty() - Removes the child elements from the selected elemen</p>
+
+</div>
+<br>
+
+<button>Remove div element</button><br>
+<br>
+<div id="div2" style="height:200px;width:300px;border:1px solid black;background-color:rgb(160, 202, 241);">
+
+    <p> remove elements and content, there are mainly two jQuery methods:</p>
+
+    <p>  remove() - Removes the selected element (and its child elements)</p>
+      <p>empty() - Removes the child elements from the selected elemen</p>
+   
+   </div>
+    
+    </div>
+    <br>
+    
+    <button id ="btn1">Empty the div element</button>
+
+</body>
+</html>
