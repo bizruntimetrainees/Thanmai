@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" type="text/css" href="./CSS/style_ass.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src = "assignment.js"></script> 
+</head>
+<body>
+       
+<div class = "tab">
+    <button id="btn1">CRUD</button>
+    <button id="btn2">Headers</button>
+    <button id="btn3">Authentication</button>
+
+</div>
+
+
+<div class="tab1">
+    
+  <div  class="tabcontent">
+      <button id="getbtn" style="display: inline-flex;" onclick="loadDoc()">GET</button>  
+        <input type ="button"  id ="getbutton" value="+" >       
+        <input type ="text"  id ="gettext1"  value="Foo1">         
+        <input type ="text"  id ="gettext2"  value="Foo2">           
+ </div>
+    
+ </div>  
+    
+</div>
+
+    <div class="tab1">
+       <div class="tabcontent">
+        <button id ="postbtn" style="display: inline-flex;">POST</button>  
+        <input type ="text"  id ="posttext1"  value="Foo1">        
+      </div>  
+    </div>
+  
+    <div class="tab1">
+      <div class="tabcontent">
+        <button id="postfrmbtn" style="display: inline-flex;">POST FORM DATA</button>  
+       
+         <input type ="button"  id ="postfrmbutton" value="+" >       
+        <input type ="text"  id ="postfrmtext1"  value="Foo1">         
+        <input type ="text"  id ="postfrmtext2"  value="Foo2">
+       
+     </div>  
+  </div>
+  
+    <div class="tab1">
+      <div  class="tabcontent">
+        <button id="putbtn" style="display: inline-flex;">PUT</button> 
+        <input type ="text"  id ="puttext1"  value="Foo1">         
+        </div>  
+    </div>
+    
+<div class="tab1">
+    <div  class="tabcontent">
+        <button id="patchbtn" style="display: inline-flex;">PATCH</button>  
+        <input type ="text"  id ="patchtext1"  value="Foo1">         
+   </div>  
+</div>
+  
+<div class="tab1">
+    <div class="tabcontent">
+        <button id ="delbtn" style="display: inline-flex;">DELETE</button>  
+        <input type ="text"  id ="deltext1"  value="Foo1">         
+   </div>  
+</div>
+
+<div class = "tab2">
+    <div  class="tabcontent2">
+        <button >Request </button>
+        <button >Response</button>
+    </div>
+</div>
+
+<div class="tab3">
+    <div class="tabcontent3">
+      <button id="basicauthbtn" style="display: inline-flex;">Basic Auth</button>   
+     
+      <lable style="color: white;">Usenmae:</lable> 
+      <input type ="text"  id ="postfrmtext1"  placeholder="Enter username"> 
+      <lable style="color: white;">Password:</lable>        
+      <input type ="text"  id ="postfrmtext2"  placeholder="Enter password" >
+      <input type ="button"  id ="postfrmbutton" value="submit" >       
+
+     
+   </div> 
+
+</div>
+</body>
+<html>
