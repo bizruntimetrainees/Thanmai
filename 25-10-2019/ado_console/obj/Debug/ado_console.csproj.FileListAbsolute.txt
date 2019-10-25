@@ -1,0 +1,6 @@
+D:\ado_console\ado_console\bin\Debug\ado_console.exe.config
+D:\ado_console\ado_console\bin\Debug\ado_console.exe
+D:\ado_console\ado_console\bin\Debug\ado_console.pdb
+D:\ado_console\ado_console\obj\Debug\ado_console.csprojAssemblyReference.cache
+D:\ado_console\ado_console\obj\Debug\ado_console.exe
+D:\ado_console\ado_console\obj\Debug\ado_console.pdb
