@@ -1,0 +1,63 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Dhanalakshmi.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EmployeeDetails</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div> 
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Id:
+                    </th>
+                    <th>
+                        Name:
+                    </th>
+                    <th>
+                        Address:
+                    </th>
+                    <th>
+                        Phone:
+                    </th>
+                    <th>
+                        EMail:
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in ViewBag.Employees)
+                {
+                <tr>
+                    <th>
+                        @item.Id
+                    </th>
+                    <th>
+                        @item.Name
+                    </th>
+                    <th>
+                        @item.Address
+                    </th>
+                    <th>
+                        @item.Phone
+                    </th>
+                    <th>
+                        @item.EMail
+                    </th>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

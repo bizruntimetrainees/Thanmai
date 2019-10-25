@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <style>
+        .form-group  h5{
+            
+            font-family:Arial;
+        }
+
+    </style>
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <div class="form-horizontal">
+
+        <!-- header -->
+        <div class="form-group" style="background-color:deepskyblue;font-family:'Old English Text MT'">
+
+            <div class="col-lg-1">
+                <img src="~/images/Logo_01.jpg" style="width:100px;height:100px;">
+            </div>
+            <div class="col-lg-4">
+                <label><h1>Dhanalakshmi Bank</h1></label>
+                <h5>The Bank you can trust on!</h5>
+            </div>
+
+        </div>
+
+
+        <div>
+            @RenderBody()
+        </div>
+
+
+        <div class="form-group" style="background-color:deepskyblue;">
+            <div class="col-lg-4">
+            </div>
+
+            <div class="col-lg-4">
+                <label>&copy; 2019. Dhanalakshmi Bank. All rights reserved.</label>
+            </div>
+
+            <div class="col-lg-4">
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
