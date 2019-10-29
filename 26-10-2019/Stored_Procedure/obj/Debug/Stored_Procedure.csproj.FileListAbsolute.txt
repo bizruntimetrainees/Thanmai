@@ -1,0 +1,6 @@
+D:\ado_console\Stored_Procedure\bin\Debug\Stored_Procedure.exe.config
+D:\ado_console\Stored_Procedure\bin\Debug\Stored_Procedure.exe
+D:\ado_console\Stored_Procedure\bin\Debug\Stored_Procedure.pdb
+D:\ado_console\Stored_Procedure\obj\Debug\Stored_Procedure.csprojAssemblyReference.cache
+D:\ado_console\Stored_Procedure\obj\Debug\Stored_Procedure.exe
+D:\ado_console\Stored_Procedure\obj\Debug\Stored_Procedure.pdb
