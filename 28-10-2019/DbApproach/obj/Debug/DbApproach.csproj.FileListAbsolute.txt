@@ -1,0 +1,11 @@
+D:\EntityFramework\DbApproach\bin\Debug\DbApproach.exe.config
+D:\EntityFramework\DbApproach\bin\Debug\DbApproach.exe
+D:\EntityFramework\DbApproach\bin\Debug\DbApproach.pdb
+D:\EntityFramework\DbApproach\bin\Debug\EntityFramework.dll
+D:\EntityFramework\DbApproach\bin\Debug\EntityFramework.SqlServer.dll
+D:\EntityFramework\DbApproach\bin\Debug\EntityFramework.xml
+D:\EntityFramework\DbApproach\bin\Debug\EntityFramework.SqlServer.xml
+D:\EntityFramework\DbApproach\obj\Debug\DbApproach.csprojAssemblyReference.cache
+D:\EntityFramework\DbApproach\obj\Debug\DbApproach.csproj.CopyComplete
+D:\EntityFramework\DbApproach\obj\Debug\DbApproach.exe
+D:\EntityFramework\DbApproach\obj\Debug\DbApproach.pdb

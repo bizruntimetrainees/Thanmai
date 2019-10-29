@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbApproach", "DbApproach\DbApproach.csproj", "{58CEE0B9-2219-49D6-A239-BA6824984EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFirst", "ModelFirst\ModelFirst.csproj", "{ECB26437-ED41-4D74-BB54-37DEF6F28867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{4A608C26-19CA-45C7-AEC7-032EC246E44C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58CEE0B9-2219-49D6-A239-BA6824984EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CEE0B9-2219-49D6-A239-BA6824984EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CEE0B9-2219-49D6-A239-BA6824984EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CEE0B9-2219-49D6-A239-BA6824984EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB26437-ED41-4D74-BB54-37DEF6F28867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB26437-ED41-4D74-BB54-37DEF6F28867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB26437-ED41-4D74-BB54-37DEF6F28867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB26437-ED41-4D74-BB54-37DEF6F28867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A608C26-19CA-45C7-AEC7-032EC246E44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A608C26-19CA-45C7-AEC7-032EC246E44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A608C26-19CA-45C7-AEC7-032EC246E44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A608C26-19CA-45C7-AEC7-032EC246E44C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {784772BC-CB53-4EB9-9850-748F3B4F019A}
+	EndGlobalSection
+EndGlobal
