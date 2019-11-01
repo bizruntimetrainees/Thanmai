@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v5.js"></script></head>
+<body>
+
+    <p>Error: Red indicates Error.</p>
+    <p>Warning:Yellow indicates warning.</p>
+    <p>Success:Green indicates warning.</p>
+
+
+<script>
+    d3.select("body").style("background-color","black");
+    d3.selectAll("p").style("color", function(d, i) {
+            var text = this.innerText;
+        
+            if (text.indexOf("Error") >= 0) 
+            {
+                return "red";
+            } 
+            else if (text.indexOf("Warning") >= 0)
+             {
+                return "yellow";
+            }
+              else (text.indexOf("Success") >= 0)
+             {
+                return "Green";
+             }
+    });
+</script>
+</body>
+</html>

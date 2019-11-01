@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v5.js"></script>
+</head>
+<body>
+        <h2>Array Transformation API</h2> 
+        <script>
+           console.log(d3.cross([1, 2,3], [10, 20]));
+           console.log( d3.merge( [ [15],[25],[35] ] ) );
+           console.log(d3.pairs([1,2,3,4,5]));
+
+           var object = {Name:"Thanmai", Designation: "Trainee",Id:1001},
+           fields = ["Name", "Designation","Id"];
+           console.log(d3.permute(object, fields)); 
+           console.log(d3.zip([10, 20], [30, 40]));
+        </script>
+     </body>
+  </html>

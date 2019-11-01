@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v5.js"></script>
+</head>
+<body>
+<h2>Array API</h2>
+
+<script>
+var data = [10,20,25,85,90];
+console.log(data);
+         console.log("min:"+d3.min(data));
+         console.log("max:"+d3.max(data));
+         console.log("Extend:"+d3.extent(data));
+         console.log("sum:"+d3.sum(data));
+         console.log("Mean:"+d3.mean(data));
+         console.log("Quantile:"+d3.quantile(data,0.5));
+         console.log("Variance:"+d3.variance(data));
+         console.log("deviation:"+d3.deviation(data));
+
+         console.log("scan:"+d3.scan(data));
+
+         console.log(d3.ascending(data,function(d){return i;}));
+         console.log(d3.ascending(45,36));
+         console.log(d3.descending(45,36));
+         console.log(d3.ascending(36,45));
+         console.log(d3.descending(36,45));
+         console.log(d3.ascending(45,45));
+         console.log(d3.descending(45,45));
+
+
+</script>
+</body>
+</html>
