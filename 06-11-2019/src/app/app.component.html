@@ -1,0 +1,19 @@
+<div style="background-color:rgba(0, 0, 0, 0.041)">
+    <h1 appSimple [foreColor]='"green"' [bgColor]='"yellow"'> Welcome to {{title}} </h1>
+    <p appSimple [foreColor]='"blue"' [bgColor]='"pink"'>
+      Directives are custom HTML attributes which tell angular to change the style or behavior of the dom elements.
+    </p>
+    
+</div>
+
+<div style="background-color: rgb(246, 165, 135);">
+  <h2>Pipe Example</h2>
+  <app-pipe></app-pipe>
+</div>
+
+<div style="background-color: cornflowerblue; height: 100px;">
+    <h2>
+    decimal validation upto 4 precessions
+    </h2>
+      <input type="textbox" placeholder="1234.5678" appDecimalPrecession>
+</div>

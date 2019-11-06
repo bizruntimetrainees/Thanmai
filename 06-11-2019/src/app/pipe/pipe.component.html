@@ -1,0 +1,10 @@
+<p>{{birthday | date | uppercase}}</p>
+<p>{{birthday | date | lowercase}}</p>
+<p> {{ birthday | date:"dd/MM/yy" }} </p>
+<p> {{ birthday | date:"MM/dd/yy" }} </p>
+
+<p>currency: {{a | currency}}</p>
+
+<p>The hero's birthday is {{ birthday1 | date:format }}</p>
+  <button (click)="toggleFormat()">Toggle Format</button>
+`
