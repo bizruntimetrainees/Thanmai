@@ -1,0 +1,91 @@
+<body>
+ <div style="background-color: blue;">CheckBox:<br>
+
+   <mat-checkbox  >Check me!</mat-checkbox>
+  </div>
+
+  <div style="background-color:blueviolet">DatePicker:<br>
+
+    <mat-form-field >
+      <input matInput [matDatepicker]="myDatePicker" placeholder="select date">
+      <mat-datepicker-toggle matSuffix [for]= "myDatePicker " ></mat-datepicker-toggle>
+    <mat-datepicker #myDatePicker></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div  style="background-color:lightpink">RadioButton:<br>
+    <mat-radio-group>
+      Horizonatl:<br>
+      <mat-radio-button value =1>one</mat-radio-button>
+      <mat-radio-button value =2>Two</mat-radio-button>
+      <mat-radio-button value =3>Three</mat-radio-button><br>
+      Vertical:
+      <mat-radio-group><br>
+          <mat-radio-button value =1>one</mat-radio-button><br>
+          <mat-radio-button value =2>Two</mat-radio-button><br>
+          <mat-radio-button value =3>Three</mat-radio-button><br>
+      </mat-radio-group>
+
+    </mat-radio-group>
+  </div>
+
+  <h1  style="color: deepskyblue;">Navigation-Menu</h1>
+
+  <div>
+    <mat-menu #appMenu = "matMenu">
+
+      <button mat-menu-item [matMenuTriggerFor]="subMenu" >Animals</button>
+      <button mat-menu-item [matMenuTriggerFor] ="subMenu2">Birds</button>
+
+    </mat-menu>
+    <button mat-flat-button [matMenuTriggerFor] = "appMenu">Menu</button>
+
+    <mat-menu #subMenu = "matMenu">
+      <button mat-menu-item>Dog</button>
+      <button mat-menu-item>Cat</button>
+      <button mat-menu-item>Cow</button>
+      <button mat-menu-item>Tiger</button>
+    </mat-menu>
+    <mat-menu #subMenu2 = "matMenu">
+        <button mat-menu-item>Peacock</button>
+        <button mat-menu-item>Parrot</button>
+        <button mat-menu-item>Pegion</button>
+      </mat-menu>
+  </div><br><br><br><br><br><br>
+  <div>
+  <h1 style="color:#ffd700">Navigation-SideNav with Menu</h1>
+  <mat-sidenav-container >
+      <mat-sidenav #sidenav mode ="side" [(opened)]= "opened">Start Sidenav<hr>
+          <mat-menu #appMenu = "matMenu"  >
+
+              <button mat-menu-item [matMenuTriggerFor]="subMenu"  >Animals</button>
+              <button mat-menu-item [matMenuTriggerFor] ="subMenu2">Birds</button>
+        
+            </mat-menu>
+            <button mat-flat-button [matMenuTriggerFor] = "appMenu" style="background-color: green;">Menu</button>
+        
+            <mat-menu #subMenu = "matMenu" >
+              <button mat-menu-item>Dog</button>
+              <button mat-menu-item>Cat</button>
+              <button mat-menu-item>Cow</button>
+              <button mat-menu-item>Tiger</button>
+            </mat-menu>
+            <mat-menu #subMenu2 = "matMenu">
+                <button mat-menu-item>Peacock</button>
+                <button mat-menu-item>Parrot</button>
+                <button mat-menu-item>Pegion</button>
+              </mat-menu>
+      </mat-sidenav>
+     <mat-sidenav-content>Main
+       <button (click) = "sidenav.open()">Open</button>
+       <button (click) = "sidenav.close()">Close</button>
+       <button (click) = "sidenav.toggle()">Toggle</button>
+
+
+     </mat-sidenav-content>
+  </mat-sidenav-container>
+  
+
+  </div>
+
+</body>

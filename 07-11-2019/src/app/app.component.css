@@ -1,0 +1,18 @@
+body
+{
+    background-color: black;
+}
+
+mat-sidenav-container
+{
+    height:500px;
+}
+mat-sidenav,mat-sidenav-conternt
+{
+    padding:15px;
+}
+mat-sidenav
+{
+    background-color: lightcoral;
+    widows: 200px;
+}
