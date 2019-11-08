@@ -1,0 +1,13 @@
+.example
+{
+    max-width: 500px;
+}
+.image
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXoEA6WYg7rHtxbSkdGcrawpXS_cLL2PR4Js7q11B2ifLwhPXA');
+    background-size:cover;
+}
+.expansion
+{
+    background-color: aquamarine;
+}
