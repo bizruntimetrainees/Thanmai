@@ -1,0 +1,171 @@
+<h1>Tabs</h1>
+<mat-tab-group>
+  <mat-tab label ="Home">Home</mat-tab>
+  <mat-tab label ="About">About</mat-tab>  
+  <mat-tab label ="Setting">Setting</mat-tab>
+
+</mat-tab-group><br>
+
+<mat-tab-group>
+  <mat-tab>
+   <ng-template mat-tab-label>
+     <mat-icon>home icon</mat-icon>Home
+   </ng-template>
+   <h1>You navigate to home</h1>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon>thumb_up</mat-icon> Like
+    </ng-template>
+    <h1>You like tab</h1>
+    <p>...</p>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon>thumb_down</mat-icon> DisLike
+    </ng-template>
+    <h1>You dislike tab</h1>
+    <p>...</p>
+  </mat-tab>
+</mat-tab-group><br>
+
+<h1>Button</h1>
+<button mat-icon-button color="warn" aria-label="Example icon-button with a heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button  mat-fab color="accent">Accent</button><br>
+
+
+  <h1>ButtonToggle</h1>
+  <mat-button-toggle-group #group="matButtonToggleGroup">
+      <mat-button-toggle value ="justify" aria-label="Text align justify">
+          <mat-icon>format_align_justify</mat-icon>
+        </mat-button-toggle>
+    <mat-button-toggle value ="left" aria-label="Text align left">
+      <mat-icon>format_align_left</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value ="center" aria-label="Text align center">
+        <mat-icon>format_align_center</mat-icon>
+      </mat-button-toggle>
+      <mat-button-toggle value ="right" aria-label="Text align right">
+          <mat-icon>format_align_right</mat-icon>
+        </mat-button-toggle>
+  </mat-button-toggle-group>
+  <div>SelectedOne:{{group.value}}</div><br>
+
+  <h1>Badges</h1>
+  <mat-icon matBadge="146" matBadgePosition="above after" color="accent">home</mat-icon><br>
+ <button  >
+   <mat-icon matBadge="28" matBadgePosition="below after"color="warm">thumb_up</mat-icon>
+ </button>
+
+ <h1>chips</h1>
+ <mat-form-field class="example-chip-list">
+    <mat-chip-list #chipList aria-label="Skill selection">
+      <mat-chip *ngFor="let skill of skills" [selectable]="selectable"
+               [removable]="removable" (removed)="remove(skill)">
+        {{skill.name}}
+        <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+      </mat-chip>
+      <input placeholder="New skillset..."
+             [matChipInputFor]="chipList"
+             [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+             [matChipInputAddOnBlur]="addOnBlur"
+             (matChipInputTokenEnd)="add($event)">
+    </mat-chip-list>
+  </mat-form-field>
+  <mat-spinner ></mat-spinner><br>
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar><br>
+
+  <mat-progress-bar mode="determinate" value="20"></mat-progress-bar><br>
+  <mat-progress-bar mode="buffer"></mat-progress-bar><br>
+  <mat-progress-bar mode="query" ></mat-progress-bar><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!--<div>
+      <mat-checkbox [(ngModel)]="centered" class="example-ripple-checkbox">Centered</mat-checkbox>
+      <mat-checkbox [(ngModel)]="disabled" class="example-ripple-checkbox">Disabled</mat-checkbox>
+      <mat-checkbox [(ngModel)]="unbounded" class="example-ripple-checkbox">Unbounded</mat-checkbox>
+      <mat-form-field class="example-ripple-form-field">
+      <input matInput [(ngModel)]="radius" type="number" placeholder="Radius">
+    </mat-form-field>
+    <mat-form-field class="example-ripple-form-field">
+      <input matInput [(ngModel)]="color" type="text" placeholder="Color">
+    </mat-form-field>
+  </div> -->
+  
+
+
+  
