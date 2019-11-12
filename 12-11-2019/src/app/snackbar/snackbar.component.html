@@ -1,0 +1,12 @@
+<p>snackbar works!</p>
+<mat-form-field>
+    <input matInput value="Mango" placeholder="Message" #message>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input matInput value="Fruit" placeholder="Action" #action>
+  </mat-form-field>
+  
+  <button mat-icon-button color="warn"  (click)="openSnackBar(message.value, action.value)">    <mat-icon>tv</mat-icon>
+    Show snack-bar</button>
+  
